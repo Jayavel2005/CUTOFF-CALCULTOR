@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT OFF CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>CUT OFF CALCULATOR</h1>
+        <div class="cutoff">
+            <div class="form">
+                <div class="inputarea">
+                    <label for="MATHS">ENTER YOU MATHS MARK:</label>
+                    <input type="number" placeholder="Enter Your Maths Mark" id="maths" max="100" required>
+                    <label for="PHYSICS">ENTER YOU PHYSICS MARK:</label>
+                    <input type="number" placeholder="Enter Your Physics Mark" id="physics" max="100" required>
+                    <label for="CHEMISTRY">ENTER YOU CHEMISTRY MARK:</label>
+                    <input type="number" placeholder="Enter Your Chemistry Mark" id="chemistry" max="100" required>
+                    <button onclick="calculate()">CALUCULATE</button>
+                    <p class="result" id="cutoff">YOUR CUT OFF : 0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cutoff.js"></script>
+</body>
+</html>
